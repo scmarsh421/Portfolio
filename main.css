@@ -1,3 +1,6 @@
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 /* Navigation */
 .navbar {
     font-size: 1.25em;
@@ -19,14 +22,41 @@
     border-radius: 50%;
 }
 .about{
-    /* width: 100%;
-    padding: 10%; */
+    margin: 50px 200px 50px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    text-align: center;
+}
+.about-pic{
+    margin: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* margin: auto; */
-    
 }
 .about-content{
+    text-align: center;
+}
 
+/* PROJECT */
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #212529;
+    width: 60%;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 25px;
+    color: white;
+}
+.card-image {
+    width: 80%;
+    margin: 10px;
+}
+.card .btn-success {
+    margin: 5px;
+    padding: 5px;
 }
